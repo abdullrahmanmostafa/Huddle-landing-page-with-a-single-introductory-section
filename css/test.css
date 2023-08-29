@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+.container
+{
+    position: relative;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #674baf;
+    left: 83%;
+}
+.container button
+{
+
+    background-color: #674baf;
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px
+}
+.container button svg
+{
+    fill :white;
+    width: 18px;
+    height: 32px;
+}
